@@ -18,12 +18,13 @@ class School
   end
   
 def grade(grade)
-  self.roster.each do |grade, students|
-  puts students.sort
+ self.roster[grade]
 end
 end
 
 def sort 
+   self.roster.each do |grade, students|
+  puts students.sort
   
 end
   
