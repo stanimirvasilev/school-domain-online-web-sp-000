@@ -8,7 +8,7 @@ class School
   end
   
   def roster(grade_level,student_name)
-    roster = {#{grade_level} => [student_name]}
+    
   end
  
 end
