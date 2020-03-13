@@ -20,12 +20,12 @@ class School
 def grade(grade)
  self.roster[grade]
 end
-end
+
 
 def sort 
    self.roster.each do |grade, students|
-  puts students.sort
-  
+   students.sort!
+  end
 end
   
   
