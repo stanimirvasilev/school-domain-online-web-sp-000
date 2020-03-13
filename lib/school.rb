@@ -21,6 +21,7 @@ def grade(grade)
   self.roster.each do |grade, students|
   students.sort!
 end
+end
 
 def sort 
   
