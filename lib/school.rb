@@ -11,7 +11,7 @@ class School
   
   
   def add_student(student, grade)
-  @roster.has_key?(grade)
+  if @roster.has_key?(grade)
   
   
   roster[level] ||= []
