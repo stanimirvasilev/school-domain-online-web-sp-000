@@ -7,8 +7,5 @@ class School
   @school = school  
   end
   
-  def roster(grade_level,student_name)
-    
-  end
- 
+
 end
