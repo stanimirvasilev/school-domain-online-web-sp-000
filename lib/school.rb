@@ -17,8 +17,8 @@ class School
       end
   end
   
-def grade
-  
+def grade(grade)
+  self.roster.each do 
 end
 
 def sort 
