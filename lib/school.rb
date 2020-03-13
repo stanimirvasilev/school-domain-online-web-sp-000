@@ -12,9 +12,6 @@ class School
     @name = name
     @grade = grade
     
-    roster[@grade]= []
-    roster[@grade] = "#{@name}"
-
   end
   
   
